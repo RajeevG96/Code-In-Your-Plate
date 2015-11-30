@@ -1,0 +1,111 @@
+/*Working stylesheet with media query*/
+
+@media (min-width: 40rem)
+{
+ 
+
+  body 
+  {
+    max-width: 40rem;
+    margin: 0 auto;
+  }
+
+  
+}
+
+body {
+  background-color: burlywood;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+
+
+img#frenchtoast1 { 
+  width:300px;
+  height:300px;
+  
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    border: 1px solid;
+    margin-bottom: 10px;
+}
+
+img#improvements { 
+ 
+  height:300px;
+  text-align: center;
+  
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    
+    margin-top: 10px;
+  border: 1px solid;
+  
+}
+
+h1 { text-align: center;
+    background-color:bisque;
+    
+  padding: 10px;
+  
+    
+    
+
+}
+
+h2 { text-align: center;
+  background-color:bisque;
+    
+  
+    padding: 10px;
+    -webkit-border-radius: 10px;
+    
+}
+
+.ingredients, .method{
+    float: left;
+    width: 45%;
+    margin: auto 10px 10px;
+}
+
+.ingredients {
+    background-color: bisque;
+    -webkit-border-radius:10px;
+    padding-bottom: 10px;
+  }
+
+ul li{
+list-style: none;
+}
+
+.improvements ul li {
+  list-style: inherit
+}
+
+
+.method {
+      background-color: bisque;
+      -webkit-border-radius: 10px;
+  padding-bottom: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+  
+}
+
+.improvements {
+  clear: both;
+  background-color: bisque;
+  padding-bottom: 10px;
+  padding: 10px;
+}
+
+img#improvements {
+  
+}
+  
+}
